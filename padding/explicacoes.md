@@ -4,7 +4,7 @@
 Preenchimento interno da caixa
 
 - padding-top | padding-right | padding-bottom | padding-left
-- values: `<length>` | `<percentage>` | auto
+- values: `<length>` | `<percentage>`
 
 ```css
 div{

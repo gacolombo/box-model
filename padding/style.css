@@ -4,4 +4,5 @@
 
 div, section {
     border: 1px solid orangered;
+    padding: 10px 2em 8px 50%;
 }

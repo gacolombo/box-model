@@ -1,0 +1,19 @@
+/**
+display: block vs display: inline
+
+----------------------------------------------------------------------------
+
+block: 
+Ocupa toda a linha, colocando o próximo elemento abaixo desse
+width e height são respeitados
+padding, margin, border irão funcionar normalmente
+exemplos: `<p>, <div>, <section>`, todos os headings `<h1><h2>...`
+
+----------------------------------------------------------------------------
+
+inline:
+Elemento ao lado do outro
+width e height não funcionam
+somente valores horizontais de margin, padding e border funcionam
+exemplos: `<a> <strong> <span> <em>`
+/

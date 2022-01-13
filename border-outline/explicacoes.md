@@ -28,3 +28,9 @@ div {
 https://developer.mozilla.org/en-US/docs/Web/CSS/border
 
 ### E outline?
+
+- diferente em 4 sentidos:
+    - não modifica o tamanho da caixa, pois não é parte do Box Model
+    - Poderá ser diferente de retargular
+    - Não permite ajuste individuais
+    - Mais usado pelo user agent para acessibilidade

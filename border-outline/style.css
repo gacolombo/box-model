@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 
 div, section {
@@ -7,5 +8,9 @@ div, section {
     height: 100px;
     margin: 20% auto;
 
-    
+    border: 20px solid red;
+    border-top: 20px double greenyellow;
+    border-bottom: none;
+
+    outline: yellow solid 10px;
 }

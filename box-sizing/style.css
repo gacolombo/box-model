@@ -1,10 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 div{
     width: 100px;
     height: 100px;
     border: 1px solid red;
     margin: 10%;
     padding: 0 20px;
-    box-sizing: border-box;
 }
 
 
@@ -12,4 +15,6 @@ div{
 box:sizing: border-box faz com que a caixa tenha verdadeiramente 100px, como especificado no width
 caso não tenha isso, o width diz respeito apenas ao CONTEÚDO da baixa, sendo assim
 são 100px de conteúdo + 40px de padding (20 da direita e 20 da esquerda)
+
+Como boa pratica, adiciona-se a box-sizing: border-box como uma regra GERAL do CSS.
 /

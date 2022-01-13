@@ -1,4 +1,4 @@
-/**
+/*
 display: block vs display: inline
 
 ----------------------------------------------------------------------------
@@ -15,5 +15,20 @@ inline:
 Elemento ao lado do outro
 width e height não funcionam
 somente valores horizontais de margin, padding e border funcionam
-exemplos: `<a> <strong> <span> <em>`
-/
+exemplos: `<a> <strong> <span> <em>` */
+
+div {
+    height: 100px;
+    border: 1px solid blue;
+    width: 10px;
+    margin: 20px;
+    /*display: inline;*/
+}
+
+span{
+    height: 100px;
+    width: 10px;
+    border: 1px solid greenyellow;
+    margin: 120px;
+    /*display: block;*/
+}
